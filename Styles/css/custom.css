@@ -289,3 +289,22 @@ body {
 footer .footer-link {
     text-transform: uppercase;
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+    #tableOverlay .loading .loading-activity {
+        left: 0;
+        top: -80px;
+        height: 40px;
+        width: 40px;
+        border-width: 25px;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    #tableOverlay .loading .loading-activity {
+        left: -50px;
+        top: -180px;
+        height: 90px;
+    }
+}
