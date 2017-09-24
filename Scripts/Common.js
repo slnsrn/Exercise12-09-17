@@ -57,8 +57,7 @@ var vSite = new Vue({
 
 //shows loaded page with fade-out effect
 function showPage() {
-    $('#fullSiteWrapper').css({ height: 'auto', position: 'relative', opacity: 1 });
-    $('.menu.opener').removeClass('init');
+    $('#fullSiteWrapper').css({ height: 'auto', position: 'relative', opacity: 1 })
 
     setTimeout(function () {
         $('html, body').scrollTop(0);
